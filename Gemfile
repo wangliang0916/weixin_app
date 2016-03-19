@@ -11,5 +11,7 @@ group :production do
 	gem 'pg', '0.18.4'
 end
 
+gem 'jquery-rails', '3.1.4'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', '1.2016.1', platforms: [:mingw, :mswin]
