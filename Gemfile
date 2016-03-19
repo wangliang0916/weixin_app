@@ -13,5 +13,7 @@ end
 
 gem 'jquery-rails', '3.1.4'
 
+gem 'turbolinks', '2.5.3'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', '1.2016.1', platforms: [:mingw, :mswin]
