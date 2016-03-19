@@ -15,5 +15,9 @@ gem 'jquery-rails', '3.1.4'
 
 gem 'turbolinks', '2.5.3'
 
+group :assets do
+	gem 'uglifier', '2.7.2'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', '1.2016.1', platforms: [:mingw, :mswin]
